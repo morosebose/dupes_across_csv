@@ -8,5 +8,5 @@ Given two CSV files:
 This script outputs a third CSV file that includes only the data from the second csv that isn't in the master. 
 
 ## Credits
-This script is part of the Name Filtering Tools project of [They See Blue](https://www.theyseeblue.org/).
-Copyright Surajit A. Bose © 2023 
+- This script is part of the Name Filtering Tools project of [They See Blue](https://www.theyseeblue.org/)
+- Copyright Surajit A. Bose © 2023.
