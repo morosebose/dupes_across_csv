@@ -151,10 +151,10 @@ def wantsViceVersa(first_file, first_data, second_file, second_data) :
     None.
     '''
     xpath, xname = os.path.split(first_file)
-    ypath, yname = os.path.split(second_file)
+    
     valid_want = False
     while not valid_want :
-        wants_vice = input(f'Would you like a file with unique data in {first_file}? [y/n]: ')[0].lower()
+        wants_vice = input(f'Would you like a file with unique data in {xname}? [y/n]: ')[0].lower()
         if wants_vice in ['y', 'n'] :
             valid_want = True
         else : 
